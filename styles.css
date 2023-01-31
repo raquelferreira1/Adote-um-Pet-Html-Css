@@ -11,7 +11,7 @@ html {
 }
 
 *::-webkit-scrollbar {
-    width: 12px;
+    width: 0.75rem;
 }
 
 *::-webkit-scrollbar-track {
@@ -20,8 +20,8 @@ html {
 
 *::-webkit-scrollbar-thumb {
     background-color: #FCCA07;
-    border-radius: 20px;
-    border: 3px solid #FFF2E7;
+    border-radius: 1.25rem;
+    border: 0.188rem solid #FFF2E7;
 }
 
 body {
@@ -30,10 +30,10 @@ body {
 }
 
 .imagem-dog {
-    margin-top: 60px;
+    margin-top: 3.75rem;
     height: 25rem;
     border-radius: 100%;
-    box-shadow: 4px 5px 4px #84594c;
+    box-shadow: 0.25rem 0.313rem 0.25rem #84594c;
     margin-right: 1.875rem;
 }
 
@@ -42,18 +42,18 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 1.5rem;
 }
 
 nav {
     display: flex;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .titulo-nav {
     font-family: 'Righteous', cursive;
     color: #ea93ce;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0.25rem 0.313rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 .titulo-nav span {
@@ -64,7 +64,7 @@ nav {
 .nav-itens {
     color: #FFF2E7;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .nav-itens:hover {
@@ -72,8 +72,8 @@ nav {
 }
 
 .conteudo {
-    border-top: 0.4px solid #FFF2E7;
-    margin-bottom: 48px;
+    border-top: 0.025rem solid #FFF2E7;
+    margin-bottom: 3rem;
 }
 
 .conteudo-principal {
@@ -86,39 +86,39 @@ nav {
 .conteudo-principal-texto {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .titulo-principal {
     font-weight: 400;
-    font-size: 55px;
+    font-size: 3.438rem;
     font-family: 'Righteous', cursive;
     color: #ECD6C4;
 }
 
 .descrição-principal {
     font-weight: 400;
-    font-size: 23px;
+    font-size: 1.438rem;
     color: #ECD6C4;
 }
 
 .button-pet {
     cursor: pointer;
-    background: #ECD6C4;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    background: #ea93ce;
+    box-shadow: 0.25rem 0.313rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
     border: none;
-    width: 180px;
-    height: 60px;
+    width: 11.25rem;
+    height: 3.75rem;
     font-family: 'Righteous', cursive;
     text-align: center;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #2F2325;
 }
 
 .button-pet:hover {
-    background-color: #ea93ce;
+    background-color: #6CCEEE;
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -127,22 +127,22 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
-    margin-top: 52px;
+    gap: 1.5rem;
+    margin-top: 3.25rem;
 }
 
 .titulo-secundario {
-    border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
+    border-top: 0.025rem solid #FFF2E7;
+    padding-top: 3rem;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #FFF2E7;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 p {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #FFF2E7;
 }
 
@@ -179,16 +179,16 @@ p {
     border: none;
     border-radius: 1rem;
     cursor: pointer;
-    height: 50px;
-    width: 80px;
-    margin-top: 20px;
+    height: 3.125rem;
+    width: 5rem;
+    margin-top: 1.25rem;
     font-family: 'Righteous', cursive;
 }
 
 footer {
     background-color: #000;
-    padding-top: 6.25rem;
-    padding-bottom: 7.5rem;
+    padding-top: 6rem;
+    padding-bottom: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,7 +198,7 @@ footer {
 footer h5 {
     font-family: 'Righteous', cursive;
     color: #ea93ce;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0.25rem 0.313rem 0.25rem rgba(0, 0, 0, 0.25);
     font-size: 1.9rem;
 }
 
@@ -227,4 +227,62 @@ footer p {
 .social a:hover {
     transform: scale(1.3);
     transition: 0.5s;
+}
+
+@media screen and (max-width:980px) {
+    .cabecalho {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .conteudo-principal {
+        flex-direction: column-reverse;
+    }
+
+    .imagem-dog {
+        height: 10rem;
+        margin-right: 0rem;
+    }
+
+    .titulo-principal {
+        font-size: 1.800rem;
+        text-align: center;
+        margin-top: 1.2rem;
+    }
+
+    .descrição-principal {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .conteudo-principal-texto {
+        align-items: center;
+    }
+
+    .button-pet {
+        font-size: 1rem;
+        width: 9.25rem;
+        height: 2.75rem;
+    }
+
+    .nav-itens {
+        font-size: 1rem;
+    }
+
+    .titulo-secundario {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+    }
+
+
+
+
+
 }
