@@ -14,7 +14,7 @@ Landing page utilizada para apresentar animais de estimação disponíveis para 
 
 - Responsivo para computador / celular;
 - Barra de rolagem personalizada com webkit-scrollbar
-- HTML Semântico;
+- HTML Semântico
 
 > Para ver o projeto on-line clique **[AQUI](https://raquelferreira1.github.io/Projeto-Adote-um-Pet/)**
 
