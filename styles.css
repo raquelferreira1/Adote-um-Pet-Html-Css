@@ -230,15 +230,15 @@ footer p {
 }
 
 .feito-com-amor {
-    color:#ECD6C4
+    color: #ECD6C4
 }
 
-.feito-com-amor span{
+.feito-com-amor span {
     color: #83040B;
 }
 
 footer p {
-    color:#ffffff
+    color: #ffffff
 }
 
 @media screen and (max-width:980px) {
@@ -269,6 +269,10 @@ footer p {
 
     .conteudo-principal-texto {
         align-items: center;
+    }
+
+    .conteudo-secundario {
+        padding: 30px;
     }
 
     .button-pet {
