@@ -1,4 +1,4 @@
-# AdoteUmPet
+# AdoteUmPet :dog:
 
 
 ## 📝 Sobre
